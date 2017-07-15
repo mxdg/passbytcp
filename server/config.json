@@ -1,0 +1,31 @@
+{
+    "http":{
+        "to_master":"0.0.0.0:10013",
+        "customer":"0.0.0.0:80",
+        "host":[
+            {
+                "domain":"pwd.ngrokhk.linkbus.xyz",
+                "auth":{
+                    "username":"cn",
+                    "password":"1234"
+                }
+            },
+            {
+                "domain":"nopwd.ngrokhk.linkbus.xyz"
+            }
+        ]
+    },
+    "tcp":[
+    {
+        "master":"0.0.0.0:10013",
+        "customer":"0.0.0.0:10125",
+        "secretkey":"pwd001"
+    },
+	{
+        "master":"0.0.0.0:10014",
+        "customer":"0.0.0.0:10126",
+        "secretkey":"pwd002"
+    }
+]
+}
+
