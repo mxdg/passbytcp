@@ -468,6 +468,9 @@ class HttpBridge:
                                 auth = None
                         else:
                             auth = True
+                    else:
+                        self._rd_shutdown(s,False,0)
+                        continue
                     if auth is True:
                         portcfg = self.hostdict[url]
                         loop = server_pool.ServerPool.get_instance().getloop
