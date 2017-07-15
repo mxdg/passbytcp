@@ -1,4 +1,4 @@
-# passtcp
+# passbytcp
 # 目的
 网上搜索了不少tcp内网穿透的代码，功能全的大多是go版本，无奈对go不感冒。<br>  
 后来一直搜索python的tcp内网穿透代码，版本很少，而且大多有各种缺陷，后来搜索到[shootback](https://github.com/aploium/shootback)，运行比较稳定。<br>  
