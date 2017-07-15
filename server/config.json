@@ -1,29 +1,29 @@
 {
     "http":{
-        "to_master":"0.0.0.0:10013",
+        "to_master":"0.0.0.0:10001",
         "customer":"0.0.0.0:80",
         "host":[
             {
-                "domain":"pwd.ngrokhk.linkbus.xyz",
+                "domain":"pwd.linkbus.xyz",
                 "auth":{
-                    "username":"cn",
+                    "username":"cncn",
                     "password":"1234"
                 }
             },
             {
-                "domain":"nopwd.ngrokhk.linkbus.xyz"
+                "domain":"nopwd.linkbus.xyz"
             }
         ]
     },
     "tcp":[
     {
-        "master":"0.0.0.0:10013",
-        "customer":"0.0.0.0:10125",
+        "master":"0.0.0.0:10001",
+        "customer":"0.0.0.0:10101",
         "secretkey":"pwd001"
     },
 	{
-        "master":"0.0.0.0:10014",
-        "customer":"0.0.0.0:10126",
+        "master":"0.0.0.0:10002",
+        "customer":"0.0.0.0:10102",
         "secretkey":"pwd002"
     }
 ]
