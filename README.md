@@ -84,9 +84,9 @@ python slaver.py -m 123.123.123.123:10001 -t 127.0.0.1:22 -k pwd001
 nohup python slaver.py -m 123.123.123.123:10001 -t 127.0.0.1:22 -k pwd001>log_10001.log 2>&1 &
 
 转发80，http端口，需要在http配置中配置对应域名信息
-python slaver.py -m 123.123.123.123:10001 -t 127.0.0.1:80 -k pwd001
+python slaver.py -m 123.123.123.123:10002 -t 127.0.0.1:80 -k pwd001
 或者
-nohup python slaver.py -m 123.123.123.123:10001 -t 127.0.0.1:80 -k pwd001>log_10001.log 2>&1 &
+nohup python slaver.py -m 123.123.123.123:10002 -t 127.0.0.1:80 -k pwd001>log_10002.log 2>&1 &
 ```
 <br>
 有问题可以联系企鹅:10005439
