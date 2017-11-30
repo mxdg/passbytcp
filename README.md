@@ -14,7 +14,7 @@
 
 # 配置说明
 服务端需要python3版本<br>
-客户端可以使用python2和3版本<br>
+客户端可以使用python2和3版本【如果python2使用有问题，请用python3启动客户端】<br>
 服务端配置文件config.json<br>
 *server文件夹是公网服务器使用的<br>
 *slaver文件夹是内网服务器使用的<br>
