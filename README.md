@@ -65,7 +65,7 @@ config.json
     }
 ] 
 }
-```
+````
 #### 运行
 配置好服务器config.json后
 服务在进入server文件夹，执行
