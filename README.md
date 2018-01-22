@@ -41,14 +41,14 @@ config.json
         "customer":"0.0.0.0:80",
         "host":[
             {
-                "domain":"pwd.linkbus.xyz",
+                "domain":"pwd.yourdomain.com",
                 "auth":{
                     "username":"cncn",
                     "password":"1234"
                 }
             },
             {
-                "domain":"nopwd.linkbus.xyz"
+                "domain":"nopwd.yourdomain.com""
             }
         ]
     },
