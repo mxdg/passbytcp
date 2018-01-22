@@ -48,7 +48,7 @@ config.json
                 }
             },
             {
-                "domain":"nopwd.yourdomain.com""
+                "domain":"nopwd.yourdomain.com"
             }
         ]
     },
